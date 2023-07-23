@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  text-align: center;
+}
+
+.card {
+  margin: 15% auto 5% auto;
+  width: 35%;
+  padding: 30px 40px;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.content-container {
+  font-family: "Manrope";
+  padding-top: 5px;
+}
+
+.divider {
+  margin-bottom: 40px;
+}
+
+.divider-2 {
+  margin-bottom: 40px;
+  display: none;
+}
+
+.advice-count {
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+em {
+  font-style: normal;
+}
+
+.advice-text {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: hsl(150, 100%, 66%);
+  padding: 20px;
+  border-radius: 50%;
+  border: 2px solid hsl(150, 100%, 66%);
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 100px;
+}
+
+.btn:hover {
+  background-color: hsl(150, 98%, 74%);
+  border: 2px solid hsl(150, 98%, 74%);
+}
+
+.rotate{
+    animation: mymove 3s infinite;
+}
+
+
+@keyframes mymove {
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+.attribution {
+  color: #fff;
+  font-family: "Manrop";
+  font-weight: 400;
+}
+
+.attribution a {
+  color: orange;
+  font-weight: 700;
+}
+
+.attribution strong {
+  color: orangered;
+}
+
+/* --------IPAD SIZE-------------- */
+
+@media screen and (max-width: 850px) {
+  body {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    width: 400px;
+    margin-top: 50%;
+    padding: 0;
+  }
+
+  .content-container {
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  .advice-text {
+    font-size: 24px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .divider-2 {
+    display: block;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .btn {
+    bottom: 70px;
+  }
+}
+
+/* --------MOBILE SIZE-------------- */
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    width: 350px;
+    margin-top: 50%;
+    padding: 0;
+  }
+
+  .content-container {
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  .advice-count {
+    font-size: 13px;
+  }
+
+  .advice-text {
+    font-size: 24px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .divider-2 {
+    display: block;
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .btn {
+    bottom: 50px;
+  }
+}
