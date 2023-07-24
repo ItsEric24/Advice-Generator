@@ -27,12 +27,12 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://advice-generator-itseric24.vercel.app/)
 
 
 ## The Issue
 
--The project does not quickly generate random advice since the Api it uses, caches advices for 2 seconds. Any repeat request within 2 seconds will return the same advice even after repated clicking.   
+-The project does not quickly generate random advice since the Api it uses, caches advices for 2 seconds. Any repeat request within 2 seconds will return the same advice even after repated clicking.  
 
 ## My process
 
